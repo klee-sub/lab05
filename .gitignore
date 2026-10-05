@@ -1,0 +1,47 @@
+# Gradle and Android build output
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local SDK configuration
+local.properties
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Coverage and test output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Python packaging output
+dist/
+*.egg-info/
+
+# Local environment settings and IDE files
+.env
+.env.*
+!.env.example
+.idea/
+*.iml
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
